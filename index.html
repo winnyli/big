@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html ng-app="bigwuhan">
+
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+	<title>武汉的旧时光</title>
+	<meta name="description" content="因为几张老照片，爱上一个老城市.">
+
+	<link rel="shortcut icon" href="assets/images1/favicon.ico"/>
+	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.6.4/css/ngDialog-theme-plain.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.6.4/css/ngDialog.min.css">
+
+	<script type="text/javascript" src="assets/js/modernizr.min.js" charset="utf-8"></script>
+</head>
+
+
+	<body>
+
+		<header class="header" header>
+			<div class="header-content">
+				<h1 class="header-title">
+					<span class="header-title-text">老 武汉 - 旧时光</span>
+					<span class="header-title-logo"></span>
+				</h1>
+
+				<p class="header-intro">
+					<span class="header-intro-text">你在这个城市生活很多年，你是否见过他的全貌。</span>
+				</p>
+			</div>
+
+			<a href="#enquire" du-smooth-scroll class="button button--champagne_text header-enquire">联系我们</a>
+
+			<a href="#experience" du-smooth-scroll class="header-scroll">
+				下拉试一下
+			</a>
+
+			<nav class="header-nav">
+				<div class="header-nav-inner">
+					<div class="header-nav-content">
+						<a class="header-nav-loc8r" href="http://wuli.huahouye.com/" target="_blank">
+							<span class="header-nav-aqualand-text">找WIFI</span>
+						</a>
+
+						<div class="header-nav-brand-wrapper">
+							<div class="header-nav-brand">
+								<div class="header-nav-brand-text">老 武汉 - 旧时光</div>
+								<div class="header-nav-brand-logo"></div>
+							</div>
+						</div>
+
+						<ul class="header-nav-menu">
+							<li class="header-nav-menu-item">
+								<a du-scrollspy du-smooth-scroll class="header-nav-menu-item-link" href="#history">历史</a>
+							</li>
+							<li class="header-nav-menu-item">
+								<a du-scrollspy du-smooth-scroll class="header-nav-menu-item-link" href="#design">景观</a>
+							</li>
+							<li class="header-nav-menu-item">
+								<a du-scrollspy du-smooth-scroll class="header-nav-menu-item-link" href="#university">大学</a>
+							</li>
+							<li class="header-nav-menu-item">
+								<a du-scrollspy du-smooth-scroll class="header-nav-menu-item-link" href="#explore">创新</a>
+							</li>
+							<li class="header-nav-menu-item">
+								<a du-scrollspy du-smooth-scroll class="header-nav-menu-item-link" href="#team">名人</a>
+							</li>
+							<li class="header-nav-menu-item">
+								<a du-scrollspy du-smooth-scroll class="header-nav-menu-item-link" href="#enquire">联系我</a>
+							</li>
+						</ul>
+
+						<a href="#enquire" du-smooth-scroll class="button header-nav-enquire">联系</a>
+
+						<a class="header-nav-phone" href="tel:XXXXXXXXXX">
+							<span class="header-nav-phone-text">嘿嘿</span>
+						</a>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+
+		<div class="page">
+			<section class="section-experience">
+				<a class="section-experience-anchor" name="experience" id="history"></a>
+				<div class="section-experience-inner">
+					<div class="section-experience-body">
+						<header class="section-experience-header">
+							<h2 class="section-experience-title" in-view-class in-view="toggleViewClass($inview, $inviewpart)">
+								<small class="section-experience-subtitle">历史</small>
+								<span class="section-experience-title-text">时光是城市的华服，越老越美丽</span>
+							</h2>
+						</header>
+
+						<div class="section-experience-footer">
+							<button dialog-toggle ng-click="openDialog()" class="section-experience-play" type="button">
+								点击播放
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+<section class="section-design">
+	<a class="section-design-anchor" name="design" id="design"></a>
+	<div class="section-design-inner">
+		<header class="section-design-header">
+			<h2 class="section-design-title" in-view-class in-view="toggleViewClass($inview, $inviewpart)">
+				<small class="section-design-subtitle">城市景观</small>
+				<span class="section-design-title-text">大江大河好风光</span>
+			</h2>
+		</header>
+		<div class="section-design-image"></div>
+		<div class="section-design-content">
+			<blockquote class="section-design-blockquote">
+				<p class="section-design-blockquote-para" in-view-class in-view="toggleViewClass($inview, $inviewpart)">武汉，两江交汇、三镇鼎立、滨江滨湖、山灵水秀、自然禀赋十分优越。更别提那九省通衢之于武汉，喧嚣的市进味和儒雅的书生气在这里汇合，彰显它无限的可爱，生机勃勃，古朴以及直率。如果说汉口的滋味是浓烈的，如一杯白酒，看着喧嚣的人群和繁华的街道，醇香味扑面而来。那武昌是淡雅宁静的，如一杯清茶，静谧芬芳，百品不厌。道不尽的只有武汉的美。</p>
+				<cite class="section-design-blockquote-cite" in-view-class in-view="toggleViewClass($inview, $inviewpart)">两江交汇，百湖星罗</cite>
+			</blockquote>
+		</div>
+	</div>
+</section>
+
+
+<section class="section-university">
+	<div class="section-university-hero"></div>
+	<div class="section-university-inner">
+		<a class="section-university-anchor" name="university" id="university"></a>
+		<header class="section-university-header">
+			<h2 class="section-university-title" in-view-class in-view="toggleViewClass($inview, $inviewpart)">
+				<small class="section-university-subtitle">大学</small>
+				<span class="section-university-title-text">华中七子</span>
+			</h2>
+		</header>
+		<div class="section-university-content">
+			<p class="section-university-content-para" in-view-class in-view="toggleViewClass($inview, $inviewpart)">武汉7所211大学，大家习称华中七子。其中武大和华科一文一理皆闻名全国，犹如江城的两颗明珠，大家习称一城双星。我有幸在这两所学校先后就读，更是深深感受到两所学校巨大的文华差异。</p>
+		</div>
+	</div>
+	<div class="section-university-carousel" carousel in-view-class in-view="toggleViewClass($inview, $inviewpart)">
+		<div class="section-university-carousel-inner" ng-style="{'margin-left': leftOffset, 'margin-right': leftOffset}">
+			<div carousel-item class="section-university-carousel-item section-university-carousel-item-01">
+			</div><div carousel-item class="section-university-carousel-item section-university-carousel-item-02">
+			</div><div carousel-item class="section-university-carousel-item section-university-carousel-item-03">
+			</div><div carousel-item class="section-university-carousel-item section-university-carousel-item-04">
+			</div><div carousel-item class="section-university-carousel-item section-university-carousel-item-05">
+			</div><div carousel-item class="section-university-carousel-item section-university-carousel-item-06">
+			</div>
+		</div>
+		
+		<button ng-hide="currentlySelectedIndex === 0" class="section-university-carousel-nav section-university-carousel-nav--prev" type="button" ng-click="prevImage()">
+			<span class="section-university-carousel-nav-text">上一张</span>
+			<svg class="section-university-carousel-nav-icon section-university-carousel-nav-icon--prev" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				 viewBox="0 0 13 27.7" style="enable-background:new 0 0 13 27.7;" xml:space="preserve">
+				 <path fill="#E8E2D5" d="M0.3,13.1L10.8,0.4c0.4-0.5,1.2-0.6,1.7-0.2c0.5,0.4,0.6,1.2,0.2,1.7L2.8,13.9l9.9,11.8
+				c0.4,0.5,0.4,1.3-0.2,1.7c-0.5,0.4-1.3,0.4-1.7-0.2L0.3,14.7C0.1,14.4,0,14.1,0,13.9C0,13.6,0.1,13.3,0.3,13.1L0.3,13.1z"/>
+			</svg>
+		</button>
+		<button ng-hide="currentlySelectedIndex === carouselApi.items.length - 1" class="section-university-carousel-nav section-university-carousel-nav--next" type="button" ng-click="nextImage()">
+			<span class="section-university-carousel-nav-text">下一张</span>
+			<svg class="section-university-carousel-nav-icon section-university-carousel-nav-icon--next" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				 viewBox="0 0 10 21.3" style="enable-background:new 0 0 10 21.3;" xml:space="preserve">
+				 <path fill="#E8E2D5" d="M9.8,10.1L1.7,0.3C1.3-0.1,0.7-0.1,0.3,0.2c-0.4,0.3-0.5,0.9-0.1,1.3l7.6,9.1l-7.6,9.1
+				c-0.3,0.4-0.3,1,0.1,1.3c0.4,0.3,1,0.3,1.3-0.1l8.1-9.7c0.1-0.2,0.2-0.4,0.2-0.6C10,10.5,9.9,10.2,9.8,10.1L9.8,10.1z"/>
+			</svg>
+
+		</button>
+		
+		<span class="section-university-carousel-counter">
+			<span class="section-university-carousel-counter-current" ng-bind="currentlySelectedIndex + 1"></span> /
+			<span ng-bind="carouselApi.items.length"></span>
+		</span>
+
+	</div>
+</section>
+
+
+<section class="section-shopping">
+	<a class="section-shopping-anchor" name="shopping" id="shopping"></a>
+	<div class="section-shopping-inner">
+		<div class="section-shopping-body">
+			<header class="section-shopping-header">
+				<h2 class="section-shopping-title" in-view-class in-view="toggleViewClass($inview, $inviewpart)">
+					<small class="section-shopping-subtitle">大步向前</small>
+					<span class="section-shopping-title-text">高科技产业已经成为武汉经济发展的马达</span>
+				</h2>
+			</header>
+			<div class="section-shopping-content" in-view-class in-view="toggleViewClass($inview, $inviewpart)">
+				<p>武汉高校众多，由高校研发力量带动起来的科技创新也走在全国前列。光谷，20年前是市郊的城乡结合部，如今已经成为带动城市高新技术发展的摇篮，是华中地区科技创新的先驱。</p>
+			</div>
+		</div>
+
+		<div in-view-class in-view="toggleViewClass($inview, $inviewpart)" class="section-shopping-image" in-view-options="{offset: '70%'}">
+		</div>
+	</div>
+</section>
+
+
+<section class="section-explore">
+	<a class="section-explore-anchor" name="explore" id="explore"></a>
+	<div class="section-explore-inner">
+		<div class="section-explore-image" in-view-class in-view="toggleViewClass($inview, $inviewpart)" in-view-options="{offset: '50%'}">
+		</div>
+		<div class="section-explore-body">
+			<header class="section-explore-header">
+				<h2 class="section-explore-title" in-view-class in-view="toggleViewClass($inview, $inviewpart)">
+					<small class="section-explore-subtitle">科技创新</small>
+					<span class="section-explore-title-text">世界硅谷，中国光谷，武汉，东方芝加哥</span>
+				</h2>
+			</header>
+		</div>
+	</div>
+</section>
+
+
+<section class="section-lifestyle">
+	<a class="section-lifestyle-anchor" name="lifestyle" id="lifestyle"></a>
+	<div class="section-lifestyle-inner">
+	<div class="section-lifestyle-image section-lifestyle-image-01" in-view-class in-view="toggleViewClass($inview, $inviewpart)"></div>
+	<div class="section-lifestyle-image section-lifestyle-image-02" in-view-class in-view="toggleViewClass($inview, $inviewpart)"></div>
+		<div class="section-lifestyle-body">
+			<header class="section-lifestyle-header">
+				<h2 class="section-lifestyle-title" in-view-class in-view="toggleViewClass($inview, $inviewpart)">
+					<small class="section-lifestyle-subtitle">不眠之城</small>
+					<span class="section-lifestyle-title-text">遍布城市各地的工地现场，既是武汉的阵痛，也是武汉的未来</span>
+				</h2>
+			</header>
+			<div class="section-lifestyle-content">
+				<p class="section-lifestyle-content-para" in-view-class in-view="toggleViewClass($inview, $inviewpart)">这个城市里，长夜依旧灯火璀璨。发展就在一分一秒间，不舍昼夜稳步推进</p>
+				<p class="section-lifestyle-content-para" in-view-class in-view="toggleViewClass($inview, $inviewpart)">多少人在这里寻求一个安居的家，奔波不停。你我或许都会成为其中的一员。</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="section-team">
+	<a class="section-team-anchor" name="team" id="team"></a>
+	<div class="section-team-inner">
+		<div class="section-team-body">
+			<div class="section-team-body-content">
+				<header class="section-team-header">
+					<h2 class="section-team-title" in-view-class in-view="toggleViewClass($inview, $inviewpart)">
+						<small class="section-team-subtitle">名人</small>
+						<span class="section-team-title-text">惟楚有才于斯为盛</span>
+					</h2>
+				</header>
+				<div class="section-team-content">
+					<p class="section-team-content-para" in-view-class in-view="toggleViewClass($inview, $inviewpart)">武汉大量的历史名人。古琴台是俞伯牙断琴的地方，高山流水直到今天依然是不朽的佳话。唐代诗人崔颢就在黄鹤楼写下“昔人已乘黄鹤去，此地空余黄鹤楼。。。”的名篇。</p>
+					<p class="section-team-content-para" in-view-class in-view="toggleViewClass($inview, $inviewpart)">武汉在中国近现代史上起着重要的作用。张之洞创立的汉阳造亲手把清政府推向了灭亡。同时，武汉还有许多革命先驱。</p>
+					<p class="section-team-content-para" in-view-class in-view="toggleViewClass($inview, $inviewpart)">建国后武汉也涌现了大批名人，当代医圣裘法祖老先生是中国外科医学的奠基人，著名网球运动员李娜，是第一个拿到大满贯的中国选手。</p>
+				</div>
+			</div>
+		</div>
+		<figure class="section-team-figure section-team-figure-01" in-view-class in-view="toggleViewClass($inview, $inviewpart)" in-view-options="{offset: '50%'}">
+			<figcaption class="section-team-figcaption">
+				<a class="section-team-figcaption-link" href="http://www.mafengwo.cn/poi/35620.html" target="_blank">张之洞</a>
+			</figcaption>
+		</figure>
+		<figure class="section-team-figure section-team-figure-02" in-view-class in-view="toggleViewClass($inview, $inviewpart)" in-view-options="{offset: '50%'}">
+			<figcaption class="section-team-figcaption">
+				<a class="section-team-figcaption-link" href="http://news.ifeng.com/history/1/renwu/200808/0811_2665_711813.shtml" target="_blank">董必武</a>
+			</figcaption>
+		</figure>
+		<figure class="section-team-figure section-team-figure-03" in-view-class in-view="toggleViewClass($inview, $inviewpart)" in-view-options="{offset: '50%'}">
+			<figcaption class="section-team-figcaption">
+				<a class="section-team-figcaption-link" href="http://www.cmda.net/xinwen/redianxinwen/2014-11-15/13888.html" target="_blank">裘法祖</a>
+			</figcaption>
+		</figure>
+		<figure class="section-team-figure section-team-figure-04" in-view-class in-view="toggleViewClass($inview, $inviewpart)" in-view-options="{offset: '50%'}">
+			<figcaption class="section-team-figcaption">
+				<a class="section-team-figcaption-link" href="http://baike.baidu.com/link?url=5zUAgKGOPUoiKaNkkhtGbXyoeVW-RIXHpObNnKQ67LfCnf51P5M8fN5LcIcyalJOucDrYJsVW9T8i6A1O6qwsbEaXIc_x5ErZk4kW1_1I8K" target="_blank">李娜</a>
+			</figcaption>
+		</figure>
+	</div>
+</section>
+
+
+<section class="section-enquire">
+	<a class="section-enquire-anchor" name="enquire" id="enquire"></a>
+	<div class="section-enquire-inner">
+		<div class="section-enquire-body">
+			<header class="section-enquire-header">
+				<h2 class="section-enquire-title" in-view-class in-view="toggleViewClass($inview, $inviewpart)">
+					<small class="section-enquire-subtitle">联系我们</small>
+					<span class="section-enquire-title-text"></span>
+				</h2>
+			</header>
+			<div class="section-enquire-content">
+				<form class="section-enquire-form" name="enquireForm" novalidate pardot-form="http://go.pardot.com/l/86572/2016-08-03/36j44r" model-name="enquire">
+					<div class="section-enquire-form-fields">
+						<div class="section-enquire-form-cell section-enquire-form-cell--50-50">
+							<div class="">
+								<div class="input">
+									<input ng-focus="resetResp()" autocomplete="off" label-up class="input-element" ng-class="{'input-element--invalid': actioned && enquireForm.firstname.$invalid}" type="text" name="firstname" id="firstname" value="" ng-model="enquire.firstname" required>
+									<label class="input-label" for="firstname">姓*</label>
+								</div>
+							</div><div class="">
+								<div class="input">
+									<input ng-focus="resetResp()" autocomplete="off" label-up class="input-element" ng-class="{'input-element--invalid': actioned && enquireForm.lastname.$invalid}" type="text" name="lastname" id="lastname" value="" ng-model="enquire.lastname" required>
+									<label class="input-label" for="lastname">名*</label>
+								</div>
+							</div>
+						</div><div class="section-enquire-form-cell">
+							<div class="input">
+								<input ng-focus="resetResp()" autocomplete="off" label-up class="input-element" ng-class="{'input-element--invalid': actioned && enquireForm.email.$invalid}" type="email" name="email" id="email" value="" ng-model="enquire.email" required>
+								<label class="input-label" for="email">通信地址*</label>
+							</div>
+						</div><div class="section-enquire-form-cell">
+							<div class="input">
+								<input ng-focus="resetResp()" autocomplete="off" label-up class="input-element" ng-class="{'input-element--invalid': actioned && enquireForm.phone.$invalid}" type="tel" name="phone" id="phone" value="" ng-model="enquire.phone" required>
+								<label class="input-label" for="phone">电话号码*</label>
+							</div>
+						</div><div class="section-enquire-form-cell">
+							<div class="input">
+								<input ng-focus="resetResp()" autocomplete="off" label-up class="input-element" ng-class="{'input-element--invalid': actioned && enquireForm.postcode.$invalid}" type="text" name="postcode" id="postcode" value="" ng-model="enquire.postcode" required pattern="\d{4}" ng-pattern="/^\d{4}$/">
+								<label class="input-label" for="postcode">邮编*</label>
+							</div>
+						</div>
+					</div>
+
+					<div class="section-enquire-form-response section-enquire-form-response--error" ng-show="pardotResp.indexOf('error') !== -1 || collierResp.indexOf('error') !== -1">
+						对不起还不能提交信息哦<br>看程序媛妹妹什么时候有空再更新吧···
+					</div>
+
+					<div class="section-enquire-form-response section-enquire-form-response--success" ng-show="pardotResp.indexOf('success') !== -1 && collierResp.indexOf('success') !== -1">
+						<strong>多谢您的信息</strong> <br>我们会尽快联络您
+					</div>
+
+					<div class="section-enquire-form-footer" ng-hide="pardotResp.indexOf('success') !== -1 && collierResp.indexOf('success') !== -1">
+						<button class="button button--champagne" type="submit" ng-click="submit()">
+							<span ng-hide="pardotSubmitting || collierSubmitting">现在联系</span>
+							<span ng-show="pardotSubmitting || collierSubmitting">提交中</span>
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+			<footer class="footer">
+	<div class="footer-cta">
+		<div class="footer-cta-inner">
+			<a class="footer-cta-link" href="tel:1800858399">
+				<span class="footer-cta-link-icon"></span>
+				电话
+				<span class="footer-cta-link-number">
+				13237191661</span>
+			</a>
+		</div>
+	</div>
+	<div class="footer-credit">
+		<div class="footer-credit-inner">
+			<span class="footer-credit-cell footer-credit-meta">
+				<span class="footer-credit-item">© <script>document.write(new Date().getFullYear())</script> Elodie WU</span>
+				<a class="footer-credit-item" target="_blank" href="#">版权声明</a>
+				<a class="footer-credit-item" target="_blank" href="#">通知信息</a>
+				<span class="footer-credit-item">
+					Site by <a target="_blank" href="#">nyl516</a>
+				</span>
+			</span>
+		</div>
+	</div>
+</footer>
+
+		</div>
+
+		<script type="text/javascript" src="assets/js/vendor.bundle.js?version=1.0.1" charset="utf-8"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.6.4/js/ngDialog.min.js"></script>
+<script type="text/javascript" src="assets/js/main.js?version=1.0.1" charset="utf-8"></script>
+
+<script type="text/javascript">
+piAId = '87572';
+piCId = '10930';
+
+(function() {
+	function async_load(){
+		var s = document.createElement('script'); s.type = 'text/javascript';
+		s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+	}
+	if(window.attachEvent) { window.attachEvent('onload', async_load); }
+	else { window.addEventListener('load', async_load, false); }
+})();
+</script>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-81913215-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+
+	</body>
+
+</html>
